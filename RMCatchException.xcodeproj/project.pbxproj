@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B5EBD1F937A85C91175579 /* libPods-RMCatchException.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC292C53486054FD26E6635 /* libPods-RMCatchException.a */; };
+		430A29B220EE456800DA9FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29B120EE456800DA9FF4 /* AppDelegate.m */; };
+		430A29B520EE456800DA9FF4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29B420EE456800DA9FF4 /* FirstViewController.m */; };
+		430A29B820EE456800DA9FF4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29B720EE456800DA9FF4 /* SecondViewController.m */; };
+		430A29BB20EE456800DA9FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430A29B920EE456800DA9FF4 /* Main.storyboard */; };
+		430A29BD20EE457A00DA9FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430A29BC20EE457A00DA9FF4 /* Assets.xcassets */; };
+		430A29C020EE457A00DA9FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430A29BE20EE457A00DA9FF4 /* LaunchScreen.storyboard */; };
+		430A29C320EE457A00DA9FF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29C220EE457A00DA9FF4 /* main.m */; };
+		430A29CC20EE475100DA9FF4 /* RMCatchExceptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29CB20EE475100DA9FF4 /* RMCatchExceptionTool.m */; };
+		430A29CF20EE546700DA9FF4 /* RMExceptionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A29CE20EE546700DA9FF4 /* RMExceptionBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EC292C53486054FD26E6635 /* libPods-RMCatchException.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMCatchException.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		430A29AD20EE456800DA9FF4 /* RMCatchException.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMCatchException.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		430A29B020EE456800DA9FF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		430A29B120EE456800DA9FF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		430A29B320EE456800DA9FF4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		430A29B420EE456800DA9FF4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		430A29B620EE456800DA9FF4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		430A29B720EE456800DA9FF4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		430A29BA20EE456800DA9FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		430A29BC20EE457A00DA9FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		430A29BF20EE457A00DA9FF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430A29C120EE457A00DA9FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430A29C220EE457A00DA9FF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		430A29CA20EE475100DA9FF4 /* RMCatchExceptionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMCatchExceptionTool.h; sourceTree = "<group>"; };
+		430A29CB20EE475100DA9FF4 /* RMCatchExceptionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCatchExceptionTool.m; sourceTree = "<group>"; };
+		430A29CD20EE546700DA9FF4 /* RMExceptionBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMExceptionBox.h; sourceTree = "<group>"; };
+		430A29CE20EE546700DA9FF4 /* RMExceptionBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMExceptionBox.m; sourceTree = "<group>"; };
+		E802A03CE5298DD2BD73E296 /* Pods-RMCatchException.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCatchException.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMCatchException/Pods-RMCatchException.release.xcconfig"; sourceTree = "<group>"; };
+		F0F9CFBE2AA3E62A25E5286B /* Pods-RMCatchException.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCatchException.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMCatchException/Pods-RMCatchException.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430A29AA20EE456800DA9FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B5EBD1F937A85C91175579 /* libPods-RMCatchException.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430A29A420EE456800DA9FF4 = {
+			isa = PBXGroup;
+			children = (
+				430A29C920EE472700DA9FF4 /* RMCatchExceptionTool */,
+				430A29AF20EE456800DA9FF4 /* RMCatchException */,
+				430A29AE20EE456800DA9FF4 /* Products */,
+				D515C0CABCA288D16A8D7285 /* Pods */,
+				BFB423CE3F8459FEC84C7291 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		430A29AE20EE456800DA9FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430A29AD20EE456800DA9FF4 /* RMCatchException.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430A29AF20EE456800DA9FF4 /* RMCatchException */ = {
+			isa = PBXGroup;
+			children = (
+				430A29B020EE456800DA9FF4 /* AppDelegate.h */,
+				430A29B120EE456800DA9FF4 /* AppDelegate.m */,
+				430A29B320EE456800DA9FF4 /* FirstViewController.h */,
+				430A29B420EE456800DA9FF4 /* FirstViewController.m */,
+				430A29B620EE456800DA9FF4 /* SecondViewController.h */,
+				430A29B720EE456800DA9FF4 /* SecondViewController.m */,
+				430A29B920EE456800DA9FF4 /* Main.storyboard */,
+				430A29BC20EE457A00DA9FF4 /* Assets.xcassets */,
+				430A29BE20EE457A00DA9FF4 /* LaunchScreen.storyboard */,
+				430A29C120EE457A00DA9FF4 /* Info.plist */,
+				430A29C220EE457A00DA9FF4 /* main.m */,
+			);
+			path = RMCatchException;
+			sourceTree = "<group>";
+		};
+		430A29C920EE472700DA9FF4 /* RMCatchExceptionTool */ = {
+			isa = PBXGroup;
+			children = (
+				430A29CA20EE475100DA9FF4 /* RMCatchExceptionTool.h */,
+				430A29CB20EE475100DA9FF4 /* RMCatchExceptionTool.m */,
+				430A29CD20EE546700DA9FF4 /* RMExceptionBox.h */,
+				430A29CE20EE546700DA9FF4 /* RMExceptionBox.m */,
+			);
+			path = RMCatchExceptionTool;
+			sourceTree = "<group>";
+		};
+		BFB423CE3F8459FEC84C7291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC292C53486054FD26E6635 /* libPods-RMCatchException.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D515C0CABCA288D16A8D7285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F9CFBE2AA3E62A25E5286B /* Pods-RMCatchException.debug.xcconfig */,
+				E802A03CE5298DD2BD73E296 /* Pods-RMCatchException.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		430A29AC20EE456800DA9FF4 /* RMCatchException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430A29C620EE457A00DA9FF4 /* Build configuration list for PBXNativeTarget "RMCatchException" */;
+			buildPhases = (
+				4147DD54BCA5DE9D3771AFC4 /* [CP] Check Pods Manifest.lock */,
+				430A29A920EE456800DA9FF4 /* Sources */,
+				430A29AA20EE456800DA9FF4 /* Frameworks */,
+				430A29AB20EE456800DA9FF4 /* Resources */,
+				20D4E5EFBDA5B62278C411A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMCatchException;
+			productName = RMCatchException;
+			productReference = 430A29AD20EE456800DA9FF4 /* RMCatchException.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430A29A520EE456800DA9FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张斌";
+				TargetAttributes = {
+					430A29AC20EE456800DA9FF4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 430A29A820EE456800DA9FF4 /* Build configuration list for PBXProject "RMCatchException" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 430A29A420EE456800DA9FF4;
+			productRefGroup = 430A29AE20EE456800DA9FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				430A29AC20EE456800DA9FF4 /* RMCatchException */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430A29AB20EE456800DA9FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430A29C020EE457A00DA9FF4 /* LaunchScreen.storyboard in Resources */,
+				430A29BD20EE457A00DA9FF4 /* Assets.xcassets in Resources */,
+				430A29BB20EE456800DA9FF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D4E5EFBDA5B62278C411A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RMCatchException/Pods-RMCatchException-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMCatchException/Pods-RMCatchException-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4147DD54BCA5DE9D3771AFC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMCatchException-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430A29A920EE456800DA9FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430A29B820EE456800DA9FF4 /* SecondViewController.m in Sources */,
+				430A29B220EE456800DA9FF4 /* AppDelegate.m in Sources */,
+				430A29C320EE457A00DA9FF4 /* main.m in Sources */,
+				430A29B520EE456800DA9FF4 /* FirstViewController.m in Sources */,
+				430A29CF20EE546700DA9FF4 /* RMExceptionBox.m in Sources */,
+				430A29CC20EE475100DA9FF4 /* RMCatchExceptionTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		430A29B920EE456800DA9FF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430A29BA20EE456800DA9FF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		430A29BE20EE457A00DA9FF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430A29BF20EE457A00DA9FF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		430A29C420EE457A00DA9FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		430A29C520EE457A00DA9FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		430A29C720EE457A00DA9FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F9CFBE2AA3E62A25E5286B /* Pods-RMCatchException.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEK52GUHSL;
+				INFOPLIST_FILE = RMCatchException/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jschunke.RMCatchException;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		430A29C820EE457A00DA9FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E802A03CE5298DD2BD73E296 /* Pods-RMCatchException.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEK52GUHSL;
+				INFOPLIST_FILE = RMCatchException/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jschunke.RMCatchException;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		430A29A820EE456800DA9FF4 /* Build configuration list for PBXProject "RMCatchException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430A29C420EE457A00DA9FF4 /* Debug */,
+				430A29C520EE457A00DA9FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430A29C620EE457A00DA9FF4 /* Build configuration list for PBXNativeTarget "RMCatchException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430A29C720EE457A00DA9FF4 /* Debug */,
+				430A29C820EE457A00DA9FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 430A29A520EE456800DA9FF4 /* Project object */;
+}
